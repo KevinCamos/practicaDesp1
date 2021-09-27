@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>1r Proyecto</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,14 +18,33 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <meta name="theme-color" content="#fafafa">
+  <div class="header">
+    <h1>2º DAW</h1>
+    <p>Desarrollo de Aplicaciones Web</p>
+  </div>
 </head>
 
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplates.</p>
+
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#modCont">Modificar contenido HTML</a></li>
+    <li><a href="#modEst">Modificar estilos CSS</a></li>
+    <li><a href="#modAT">Modificar atributos HTML</a></li>
+    <li></li>
+  </ul>
+
+Este curso es una Formación Profesional de grado superior para aprender a desarrollar aplicaciones web
+
+  <div class="footer">
+    <p>1r Proyecto</p>
+  </div>
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
@@ -33,8 +52,16 @@
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     console.log("eh")
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
