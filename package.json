@@ -51,6 +51,7 @@
     "del": "^5.1.0",
     "eslint": "^7.1.0",
     "eslint-config-recommended": "^4.1.0",
+    "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-mocha": "^7.0.1",
     "glob": "^7.1.6",
     "gulp": "^4.0.2",
@@ -102,5 +103,12 @@
     "build": "gulp build",
     "test": "gulp archive && mocha --require @babel/register --reporter spec --timeout 5000"
   },
-  "version": "8.0.0"
+  "version": "8.0.0",
+  "plugins": [
+    "html"
+  ],
+  "settings": {
+    "html/indent": "tab",
+    "html/report-bad-indent": "error"
+  }
 }

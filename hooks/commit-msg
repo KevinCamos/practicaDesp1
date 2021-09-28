@@ -1,0 +1,16 @@
+#!/bin/sh
+
+
+
+
+if ! grep -iqE "MOTIVO DEL COMMIT: "* "$1"; then
+    echo "Hay que introducir el campo 'MOTIVO DEL COMMIT: '"
+    exit 1
+
+elif ! grep -iqE *"IMPLEMENTACION:"* "$1"; then
+   
+    echo "Hay que introducir el campo 'IMPLEMENTACION: '"
+     exit 1
+
+fi
+exit 0
