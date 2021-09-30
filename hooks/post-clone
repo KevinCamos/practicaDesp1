@@ -1,6 +1,4 @@
 #!/bin/bash
 
-#npm install
 echo "Este es el hook post-clone";
 npm install
-#ls -l
