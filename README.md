@@ -1,7 +1,7 @@
 # SISTEMAS DE CONTROL DE VERSIONES - 1ª PRACTICA
 
-## 'Práctica por Kevin Camós" 
-## GitHub Pages del proyecto https://kevincamos.github.io/practicaDesp1/
+## 'Por Kevin Camós" 
+## `GitHub Pages https://kevincamos.github.io/practicaDesp1/`
 
 `¿Qué es git?`
 
