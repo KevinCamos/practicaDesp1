@@ -218,6 +218,7 @@ $ git checkout main
 $ git merge developer
 ```
 
+Ahora ya, habiendo finalizado una primera versión del proyecto preparada para testear y darle uso, el usuario uno decide ponerle el lazo final etiquetando el proyecto como la versión 1.0 con el ahora primer comando y añadiéndolo al repositorio remoto con el segundo. 
 ```
 $ git tag -a v1.0
 ```
@@ -313,7 +314,7 @@ npm install --save-dev eslint-plugin-html
 
 #### 6.2 - Configuración de eslint
 
-Esta configuración nos permite comprobar la tabulación y además nos informa de tener una mala tabulación. Configuración añadida en 'package.json' 
+Esta configuración nos permite comprobar la tabulación y además nos informa de tener una mala tabulación. Configuración añadida en 'package.json', aunque también se pueede aplicar en "-esñomtrc.json", aunque a pesar de los esfuerzos, el equipo no consiguió hacer que funcionara. 
 
 ```json
 "settings":{
